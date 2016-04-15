@@ -9,8 +9,7 @@
 title: Yufan Sun
 email: yufansun@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  This is the learning notes for Yufan Sun, a student majoring in 
-  Computer Science at University of Michigan.
+  This is the learning notes about Swift, C++, React, Javascript for Yufan Sun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yufansun.github.io" # the base hostname & protocol for your site
 twitter_username: 
