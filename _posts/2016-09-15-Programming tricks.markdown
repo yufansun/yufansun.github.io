@@ -9,11 +9,11 @@ categories: Programming questions
   * clockwise rotate
   first reverse up to down, then swap the symmetry 
 
-  1 2 3     7 8 9     7 4 1
+    1 2 3     7 8 9     7 4 1
 
-  4 5 6  => 4 5 6  => 8 5 2
+    4 5 6  => 4 5 6  => 8 5 2
 
-  7 8 9     1 2 3     9 6 3
+    7 8 9     1 2 3     9 6 3
   {%highlight c++ %}
   void rotate(vector<vector<int> > &matrix) {
     reverse(matrix.begin(), matrix.end());
@@ -26,11 +26,11 @@ categories: Programming questions
   * counterclockwise rotage
   first reverse left to right, then swap the symmetry
 
-  1 2 3     3 2 1     3 6 9
+    1 2 3     3 2 1     3 6 9
 
-  4 5 6  => 6 5 4  => 2 5 8
+    4 5 6  => 6 5 4  => 2 5 8
 
-  7 8 9     9 8 7     1 4 7
+    7 8 9     9 8 7     1 4 7
 
 # Template that can solve most 'substring' problems
 
@@ -61,5 +61,48 @@ while(end<s.size()){
     }
     return d;
 }
+{% endhighlight %}
+
+# Permutation related question
+## Recursive solution
+Basic idea: permutation of A[1..n] equals to
+A[1] + permutation of (A[1..n] - A[1])
+A[2] + permutation of (A[1..n] - A[2])
+...
+A[n] + permutation of (A[1..n] - A[n]).
+## Use code in nextPermutation
+Next permutation:
+1. Find the largest index k such that nums[k] < nums[k + 1]. If no such index exists, the permutation is sorted in descending order, just reverse it to ascending order and we are done. For example, the next permutation of [3, 2, 1] is [1, 2, 3].
+2. Find the largest index l greater than k such that nums[k] < nums[l].
+3. Swap the value of nums[k] with that of nums[l].
+4. Reverse the sequence from nums[k + 1] up to and including the final element nums[nums.size() - 1].
+
+*   {%highlight c++ %}
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int k=-1,i;
+        for (i=nums.size()-1;i>0;i--) {
+            if(nums[i]>nums[i-1]) {
+                k=i-1;
+                break;
+            }
+        }
+        if (k==-1) {
+            reverse(nums.begin(),nums.end());
+            return;
+        } else {
+            int j,l=-1;
+            for (j=nums.size()-1;j>k;j--) {
+                if(nums[j]>nums[k]) {
+                    l=j;
+                    break;
+                }
+        }
+        swap(nums[k],nums[j]);
+        reverse(nums.begin()+k+1,nums.end());
+        }
+    }
+};
 {% endhighlight %}
 
