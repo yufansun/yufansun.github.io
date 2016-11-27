@@ -64,12 +64,14 @@ while(end<s.size()){
 {% endhighlight %}
 
 # Permutation related question
+
 ## Recursive solution
 Basic idea: permutation of A[1..n] equals to
 A[1] + permutation of (A[1..n] - A[1])
 A[2] + permutation of (A[1..n] - A[2])
 ...
 A[n] + permutation of (A[1..n] - A[n]).
+
 ## Use code in nextPermutation
 Next permutation:
 1. Find the largest index k such that nums[k] < nums[k + 1]. If no such index exists, the permutation is sorted in descending order, just reverse it to ascending order and we are done. For example, the next permutation of [3, 2, 1] is [1, 2, 3].
