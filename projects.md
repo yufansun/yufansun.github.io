@@ -14,8 +14,8 @@ Anonymouse is a peer-to-peer microblogging app for the iPhone. It is designed to
 
 ***
 
-### [Anonymouse](https://github.com/yufansun/ios-team)
-Anonymouse is a peer-to-peer microblogging app for the iPhone. It is designed to provide local and anonymous communication that is censorship-resistant. This project is sponsored by the University of Michigan.
+### [Customer Support Web Page for Seller Portal]()
+Project for internship at Amazon. A website page for sellers to search for subscription information.
 
 ## Contact me
 
