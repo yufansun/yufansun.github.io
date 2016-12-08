@@ -3,6 +3,7 @@ layout: post
 title:  "Programming tricks"
 date:   2016-09-15 23:33:17 -0400
 categories: Programming questions
+author: Yufan Sun
 ---
 # Image rotation
 

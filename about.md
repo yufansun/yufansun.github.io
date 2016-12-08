@@ -4,12 +4,35 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Yufan Sun, currently a student at University of Michigan.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+## Education
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* Bachelor degree of Computer Science from University of Michigan.
+* Bachelor degree of Electrical and Computer Engineering from Shanghai Jiao Tong University.
+
+## Skills
+
+* **Programming Language** - `C++` / `C` / `Java` / `Python`/ `JavaScript`/ `Swift`
+* **Software** - `MATLAB` / `PSpice` / `Origin` / `Xilinx`
+* **Web Development** - `React` / `jQuery`
+* **Mobile App Development** - `iOS` / `Android`
+* **Language** - `English` / `Chinese`
+
+## Honors and Awards
+
+
+* [**2016 Amazon Intern Hackathon, first prize**](#) 
+   
+   Developed an Android Photography App "FaceDown" that can detect people's face and change them to stickers or other people's faces.
+
+***
+
+* [**2015 Metz Medical Mobile Medical Innovation Contest, second prize**](#) 
+
+    A smartphone based ophthalmoscope that can diagnose disease automatically according to fundus photos
+
+## Contact me
+
+[yufansun@umich.edu](mailto:yufansun@umich.edu)
+

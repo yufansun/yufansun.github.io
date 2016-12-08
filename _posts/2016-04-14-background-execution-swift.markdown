@@ -3,6 +3,7 @@ layout: post
 title:  "Background Execution Swift"
 date:   2016-04-14 23:45:17 -0400
 categories: Swift
+author: Yufan Sun
 ---
 Using Swift, the current execution state of an app is available from `UIApplication.sharedApplication().applicationState`.
 
