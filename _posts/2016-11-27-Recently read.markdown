@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recently read"
-date:   2016-11-27 15:57:17 -0400
+date:   2018-09-04 15:57:17 -0400
 categories: Books
 author: Yufan Sun
 ---
@@ -12,6 +12,8 @@ author: Yufan Sun
 	* Geoffrey A. Moore
 
 # History
+* [A Brief History of Humankind](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095)
+    * Yuval Noah Harari
 * [历史深处的忧虑](https://book.douban.com/subject/1027191/)
 	* 2016
 	* 林达

@@ -4,6 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
+### SWEATERS
+SWEATERS is the short name for SWA Email Template Rendering Service. The project was developed at Amazon Inc. to render different email types sent to customers.
+
+***
+
+### [FaceDown](https://github.com/yufansun/Face_Down) 
+FaceDown is a game developed in Android to let users select the emoji/sticker to overlay their faces when taking photos. The emojis will change based on user's facial expression. Got first prize in Amazon Intern Hackthon.
+
+***
+
 ### [GoU](https://github.com/yufansun/GoU) 
 GoU is a mobile application designed to solve long-distance ridesharing problem. The project is developed in Swift. Available in [App Store](https://itunes.apple.com/us/app/gou-ridesharing/id1182817695?ls=1&mt=8).
 
@@ -19,4 +29,4 @@ Project for internship at Amazon. A website page for sellers to search for subsc
 
 ## Contact me
 
-[yufansun@umich.edu](mailto:yufansun@umich.edu)
+[yufan_sun@berkeley.edu](mailto:yufan_sun@berkeley.edu)

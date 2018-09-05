@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I'm Yufan Sun, currently a student at University of Michigan.
+I'm Yufan Sun, a Master student at University of California, Berkeley.
 
 ## Education
 
+* Pursuring Master degree of Electrical Engineering and Computer Science at UC Berkeley
 * Bachelor degree of Computer Science from University of Michigan.
 * Bachelor degree of Electrical and Computer Engineering from Shanghai Jiao Tong University.
 
@@ -17,7 +18,7 @@ I'm Yufan Sun, currently a student at University of Michigan.
 * **Software** - `MATLAB` / `PSpice` / `Origin` / `Xilinx`
 * **Web Development** - `React` / `jQuery`
 * **Mobile App Development** - `iOS` / `Android`
-* **Language** - `English` / `Chinese`
+* **Language** - `English` / `Manderin`
 
 ## Honors and Awards
 
@@ -34,5 +35,5 @@ I'm Yufan Sun, currently a student at University of Michigan.
 
 ## Contact me
 
-[yufansun@umich.edu](mailto:yufansun@umich.edu)
+[yufan_sun@berkeley.edu](mailto:yufan_sun@berkeley.edu)
 
