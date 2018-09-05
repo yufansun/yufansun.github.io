@@ -5,7 +5,7 @@ date:   2016-09-15 23:33:17 -0400
 categories: Programming questions
 author: Yufan Sun
 ---
-# Image rotation
+## Image rotation
 
   * clockwise rotate
   first reverse up to down, then swap the symmetry 
@@ -33,7 +33,7 @@ author: Yufan Sun
 
     7 8 9     9 8 7     1 4 7
 
-# Template that can solve most 'substring' problems
+## Template that can solve most 'substring' problems
 
 * For most substring problem, we are given a string and need to find a substring of it which satisfy some restrictions. A general way is to use a hashmap assisted with two pointers. The template is given below.
 *   {%highlight c++ %}
