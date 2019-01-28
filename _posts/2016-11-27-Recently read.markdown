@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recently read"
-date:   2018-09-04 15:57:17 -0400
+date:   2019-01-27 17:41:17 -0400
 categories: Books
 author: Yufan Sun
 ---
@@ -17,3 +17,11 @@ author: Yufan Sun
 * [历史深处的忧虑](https://book.douban.com/subject/1027191/)
 	* 2016
 	* 林达
+
+## Novel
+* [the moon and sixpence](https://www.amazon.com/Moon-Sixpence-W-Somerset-Maugham/dp/1420951920)
+	* W. Somerset Maugham 
+* [白夜行](https://book.douban.com/subject/3259440/)
+	* 东野圭吾
+* [流浪地球](https://book.douban.com/subject/3266609/)
+	* 刘慈欣
